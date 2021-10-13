@@ -1,0 +1,26 @@
+{
+  "name": "UnDiscard",
+  "description": "Don't Discard URLs",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["storage", "activeTab", "tabs", "notifications"],
+  "page_action": {
+    "default_icon": {
+      "16": "/images/undiscard16.png",
+      "32": "/images/undiscard32.png",
+      "48": "/images/undiscard48.png",
+      "128": "/images/undiscard128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/undiscard16.png",
+    "32": "/images/undiscard32.png",
+    "48": "/images/undiscard48.png",
+    "128": "/images/undiscard128.png"
+  },
+  "options_page": "options.html"
+}
